@@ -1,100 +1,4 @@
 labels:
-  - name: 3 - To Review
-    color: "#ededed"
-  - name: 3_-_To_Review
-    color: "#ededed"
-  - name: app:activity
-    color: "#02d7e1"
-  - name: app:admin_audit
-    color: "#02d7e1"
-  - name: app:announcementcenter
-    color: "#02d7e1"
-  - name: app:calendar
-    color: "#02d7e1"
-  - name: app:collaborative_tags
-    color: "#02d7e1"
-  - name: app:configreport
-    color: "#02d7e1"
-  - name: app:contacts
-    color: "#02d7e1"
-  - name: app:customgroups
-    color: "#02d7e1"
-  - name: app:encryption
-    color: "#02d7e1"
-  - name: app:external
-    color: "#02d7e1"
-  - name: app:federatedfilesharing
-    color: "#02d7e1"
-  - name: app:files_antivirus
-    color: "#02d7e1"
-  - name: app:files_classifier
-    color: "#02d7e1"
-  - name: app:files_external_dropbox
-    color: "#02d7e1"
-  - name: app:files_external
-    color: "#02d7e1"
-  - name: app:files_lifecycle
-    color: "#02d7e1"
-  - name: app:files_pdfviewer
-    color: "#02d7e1"
-  - name: app:files_primary_s3
-    color: "#02d7e1"
-  - name: app:files_trashbin
-    color: "#02d7e1"
-  - name: app:files_versions
-    color: "#02d7e1"
-  - name: app:files_videoplayer
-    color: "#02d7e1"
-  - name: app:files
-    color: "#02d7e1"
-  - name: app:firewall
-    color: "#02d7e1"
-  - name: app:gallery
-    color: "#02d7e1"
-  - name: app:guest
-    color: "#02d7e1"
-  - name: app:impersonate
-    color: "#02d7e1"
-  - name: app:market
-    color: "#02d7e1"
-  - name: app:metrics
-    color: "#02d7e1"
-  - name: app:notifications
-    color: "#02d7e1"
-  - name: app:oauth2
-    color: "#02d7e1"
-  - name: app:objectstore
-    color: "#02d7e1"
-  - name: app:onlyoffice
-    color: "#02d7e1"
-  - name: app:openidconnect
-    color: "#02d7e1"
-  - name: app:password_policy
-    color: "#02d7e1"
-  - name: app:ransomware_protection
-    color: "#02d7e1"
-  - name: app:richdocuments
-    color: "#02d7e1"
-  - name: app:sharing
-    color: "#02d7e1"
-  - name: app:theme-enterprise
-    color: "#02d7e1"
-  - name: app:twofactor_totp
-    color: "#02d7e1"
-  - name: app:user_ldap
-    color: "#02d7e1"
-  - name: app:user_management
-    color: "#02d7e1"
-  - name: app:user_shibboleth
-    color: "#02d7e1"
-  - name: app:windows_network_drive
-    color: "#02d7e1"
-  - name: app:wopi
-    color: "#02d7e1"
-  - name: app:workflow
-    color: "#02d7e1"
-  - name: appliance
-    color: "#02d7e1"
   - name: blue-ticket
     color: "#0033cc"
   - name: bug-analysis
@@ -103,37 +7,23 @@ labels:
     color: "#0e8a16"
   - name: bug
     color: "#fc2929"
-  - name: C1-oCIS
+  - name: Platform:oCIS
     color: "#02d7e1"
-  - name: C2-oC10
+  - name: Platform:oC10
     color: "#02d7e1"
-  - name: C3-iOS
+  - name: Platform:iOS
     color: "#02d7e1"
-  - name: C4-Android
+  - name: Platform:Android
     color: "#02d7e1"
-  - name: C5-Phoenix
+  - name: Platform:Web
     color: "#02d7e1"
-  - name: C6-Desktop
+  - name: Platform-Desktop
     color: "#02d7e1"
-  - name: client 2.6.1
-    color: "#fca674"
   - name: Consulting
     color: "#639fed"
-  - name: ConsultingApp
-    color: "#ededed"
   - name: Customer-FR
     color: "#d93f0b"
-  - name: db:mariadb
-    color: "#444444"
-  - name: db:mysql
-    color: "#444444"
-  - name: db:oracle
-    color: "#444444"
-  - name: db:postgresql
-    color: "#444444"
-  - name: "Deadline \U0001F4C6"
-    color: "#fbca04"
-  - name: "Deadline_\U0001F4C6"
+  - name: "Deadline-\U0001F4C6"
     color: "#ededed"
   - name: Deployment
     color: "#d86763"
@@ -148,65 +38,24 @@ labels:
     color: "#d794ef"
   - name: documentation
     color: "#02d7e1"
-  - name: 'Effort: trivial'
-    color: "#c2e0c6"
-  - name: 'Effort: 0.5d'
-    color: "#c2e0c6"
-  - name: 'Effort: 0.25d'
-    color: "#c2e0c6"
-  - name: 'Effort: 1d'
-    color: "#c2e0c6"
-  - name: 'Effort: 1w'
-    color: "#c2e0c6"
-  - name: 'Effort: 2d'
-    color: "#c2e0c6"
-  - name: 'Effort: 2w'
-    color: "#c2e0c6"
-  - name: 'Effort: 4d'
-    color: "#c2e0c6"
-  - name: Engineering
-    color: "#eb6420"
-  - name: enhancement-approved
-    color: "#ff9900"
-  - name: enhancement-needs_design
-    color: "#ff9900"
-  - name: enhancement-proposed
-    color: "#ff9900"
   - name: Enhancement
     color: "#84b6eb"
-  - name: epic-license-manager
-    color: "#e59057"
-  - name: epic-mvp-oc10-phoenix
-    color: "#e59057"
-  - name: epic-notifications
-    description: Epic Label
-    color: "#fbca04"
-  - name: epic-users-in-ocis
-    color: "#ededed"
-  - name: epic-webdav-migration
-    color: "#76e87d"
   - name: epic
     color: "#fbca04"
-  - name: Estimation - 1 (XS)
+  - name: Estimation-XS
     color: "#c4fc9c"
-  - name: Estimation - 2 (S)
+  - name: Estimation-S
     color: "#c4fc9c"
-  - name: Estimation_-_2_(S)
-    color: "#ededed"
-  - name: Estimation - 3 (M)
+  - name: Estimation-M
     color: "#c4fc9c"
-  - name: Estimation - 5 (L)
+  - name: Estimation-L
     color: "#c4fc9c"
-  - name: Estimation - 8 (XL)
+  - name: Estimation-XL
     color: "#c4fc9c"
-  - name: Estimation - 13 (XXL)
+  - name: Estimation-XXL
     color: "#c4fc9c"
-  - name: Estimation - 21 (XXXL)
+  - name: Estimation-XXXL
     color: "#c4fc9c"
-  - name: Glencore
-    color: "#b60205"
-  - name: infrastructure
-    color: "#3f799e"
   - name: Knowledge-Base
     description: Solutions for internal knowledge
     color: "#c5def5"
@@ -225,22 +74,8 @@ labels:
     color: "#3d14e2"
   - name: OCIS-Fastlane
     color: "#ededed"
-  - name: OCIS-Sprint-15
-    color: "#ededed"
-  - name: OCIS-Sprint-16
-    color: "#ededed"
-  - name: OCIS-Sprint-17
-    color: "#ededed"
-  - name: old-inactive
-    color: "#d4c5f9"
-  - name: on-hold
-    color: "#fef2c0"
-  - name: online_editing
-    color: "#c5def5"
   - name: orga
     color: "#c5def5"
-  - name: Ownbrander
-    color: "#c7def8"
   - name: p1-urgent
     description: 'Consider a hotfix release with only that fix (ex: lose trust, money,
       security issue, ...)'
@@ -258,15 +93,6 @@ labels:
     color: "#f7c6c7"
   - name: performance
     color: "#fbca04"
-  - name: Planned-Features
-    color: "#fbca04"
-  - name: presales
-    color: "#cdc9ff"
-  - name: product doc
-    color: "#8846b5"
-  - name: Project-Overviews
-    description: Top level Tickets to track and follow subtasks
-    color: "#77f24b"
   - name: project
     color: "#0052cc"
   - name: QA-ready
@@ -281,12 +107,8 @@ labels:
     color: "#0e8a16"
   - name: Regression
     color: "#e11d21"
-  - name: release note
-    color: "#bfd4f2"
   - name: research
     color: "#ffff00"
-  - name: school
-    color: "#ededed"
   - name: security
     color: "#d93f0b"
   - name: server-sprint
@@ -318,11 +140,6 @@ labels:
     color: "#fbca04"
   - name: theme
     color: "#ededed"
-  - name: time-tracking
-    description: Ticket where we track efforts/times
-    color: "#e802dc"
-  - name: TP
-    color: "#ededed"
   - name: Transition
     color: "#ededed"
   - name: translation
@@ -349,15 +166,11 @@ labels:
   - name: U6-Nonfunctional
     description: User Story Category
     color: "#c5def5"
-  - name: ucs
-    color: "#ededed"
-  - name: UX Design
+  - name: UX-Design
     color: "#ccf4ff"
-  - name: UX_Design
-    color: "#ededed"
-  - name: waiting for feedback
+  - name: waiting-for-feedback
     color: "#62db68"
-  - name: Waiting
+  - name: waiting
     color: "#e6e6e6"
   - name: wontfix
     color: "#ffffff"
