@@ -129,7 +129,7 @@ labels:
   - name: Status:Waiting-for-Feedback
     color: "#fbca04"
   - name: Status:Bug-Analysis
-    color: "#fbca04"
+    color: "#FEF2C0"
   - name: Status:On-Hold
     color: "#aa3109"
   - name: Status:Needs-Review
@@ -149,9 +149,9 @@ labels:
   - name: Status:Blocked
     color: "#990000"
   - name: Status:Pending
-    color: "#e6e6e6"
+    color: "#eca3a2"
   - name: Status:Proposal
-    color: "#e6e6e6"
+    color: "#D4C5F9"
   - name: Status:Accepted
     color: "#d6f282"
   - name: Status:Wontfix
