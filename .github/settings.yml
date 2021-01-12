@@ -66,11 +66,14 @@ labels:
   - name: Type:Story
     description: User Story
     color: "#c6f489"
+    oldname: story
   - name: Type:Epic
     description: Epic is the parent of user stories
     color: "#6819E7"
+    oldname: epic
   - name: Type:Bug
     color: "#fc2929"
+    oldname: bug
   - name: Type:Design
     color: "#cc317c"
   - name: Type:Discussion
@@ -167,6 +170,7 @@ labels:
     color: "#fbca04"
   - name: Interaction:Needs-Concept
     color: "#fbca04"
+    oldname: needs concept
   - name: Interaction:Needs-tests
     color: "#fbca04"
   - name: Interaction:Question
