@@ -131,36 +131,36 @@ labels:
   - name: Status:Bug-Analysis
     color: "#fbca04"
   - name: Status:On-Hold
-    color: "#e6e6e6"
+    color: "#aa3109"
   - name: Status:Needs-Review
     description: Needs review from a maintainer
-    color: "#e6e6e6"
+    color: "#fbca04"
   - name: Status:Needs-Revision
     description: Needs code input from a maintainer
-    color: "#e6e6e6"
+    color: "#fbca04"
   - name: Status:Needs-Info
-    color: "#0b02e1"
+    color: "#fbca04"
   - name: Status:Needs-release
-    color: "#e6e6e6"
+    color: "#fbca04"
   - name: Status:In-Progress
-    color: "#e6e6e6"
+    color: "#C5DEF5"
   - name: Status:Completed
-    color: "#e6e6e6"
+    color: "#006B75"
   - name: Status:Blocked
-    color: "#e6e6e6"
+    color: "#990000"
   - name: Status:Pending
     color: "#e6e6e6"
   - name: Status:Proposal
     color: "#e6e6e6"
   - name: Status:Accepted
-    color: "#e6e6e6"
+    color: "#d6f282"
   - name: Status:Wontfix
     color: "#ffffff"
   - name: Status:Tested
     color: "#62db68"
   - name: Interaction:Needs-help
     description: Asking some hints to engineering when the issue can't be reproduced
-    color: "#008672"
+    color: "#fbca04"
   - name: Interaction:Needs-Concept
     color: "#fbca04"
   - name: Interaction:Needs-tests
