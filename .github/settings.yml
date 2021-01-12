@@ -108,6 +108,10 @@ labels:
     color: "#ccf4ff"
   - name: Topic:Deprecation
     color: "#ccf4ff"
+  - name: Topic:Good-First-Issue
+    color: "#7057ff"
+  - name: Topic:API
+    color: "#a2eeef"
   - name: Category:Feature
     description: Add new functionality
     color: "#c5def5"
