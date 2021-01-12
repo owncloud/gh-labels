@@ -9,7 +9,7 @@ labels:
     color: "#02d7e1"
   - name: Platform:Web
     color: "#02d7e1"
-  - name: Platform-Desktop
+  - name: Platform:Desktop
     color: "#02d7e1"
   - name: "Deadline-\U0001F4C6"
     color: "#fbca04"
