@@ -83,8 +83,6 @@ labels:
     color: "#C2E0C6"
   - name: Type:Regression
     color: "#e11d21"
-  - name: Type:Orga
-    color: "#c5def5"
   - name: Type:Knowledge-Base
     description: Solutions for internal knowledge
     color: "#c5def5"
