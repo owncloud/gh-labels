@@ -12,7 +12,7 @@ labels:
   - name: Platform-Desktop
     color: "#02d7e1"
   - name: "Deadline-\U0001F4C6"
-    color: "#ededed"
+    color: "#fbca04"
   - name: Estimation:XS
     color: "#c4fc9c"
   - name: Estimation:S
@@ -91,27 +91,25 @@ labels:
   - name: Type:CI
     description: Solutions for internal knowledge
     color: "#c5def5"
-  - name: minor-release
-    color: "#a5172a"
   - name: Topic:Transition
-    color: "#ededed"
+    color: "#ccf4ff"
   - name: Topic:Translation
-    color: "#ededed"
+    color: "#ccf4ff"
   - name: Topic:UX-Design
     color: "#ccf4ff"
   - name: Topic:Packaging
-    color: "#f7c6c7"
+    color: "#ccf4ff"
   - name: Topic:Performance
-    color: "#fbca04"
+    color: "#ccf4ff"
   - name: Topic:Security
-    color: "#d93f0b"
+    color: "#ccf4ff"
   - name: Topic:Docker
     description: Issues related to our official Docker containers
-    color: "#d794ef"
+    color: "#ccf4ff"
   - name: Topic:Documentation
-    color: "#02d7e1"
+    color: "#ccf4ff"
   - name: Topic:Deprecation
-    color: "#e770ef"
+    color: "#ccf4ff"
   - name: Category:Feature
     description: Add new functionality
     color: "#c5def5"
@@ -131,7 +129,7 @@ labels:
     description: Will not change behavior
     color: "#c5def5"
   - name: Status:Waiting-for-Feedback
-    color: "#62db68"
+    color: "#fbca04"
   - name: Status:Bug-Analysis
     color: "#fbca04"
   - name: Status:On-Hold
@@ -161,16 +159,18 @@ labels:
   - name: Status:Wontfix
     color: "#ffffff"
   - name: Status:Tested
-    color: "#fbca04"
+    color: "#62db68"
   - name: Interaction:Needs-help
     description: Asking some hints to engineering when the issue can't be reproduced
-    color: "#3d14e2"
+    color: "#008672"
   - name: Interaction:Needs-Concept
-    color: "#f78e0e"
+    color: "#fbca04"
   - name: Interaction:Needs-tests
-    color: "#a395f9"
+    color: "#fbca04"
   - name: Interaction:Question
-    color: "#cc317c"
+    color: "#fbca04"
+  - name: Interaction:Discussion
+    color: "#fbca04"
   - name: Interaction:Blue-Ticket
     color: "#0033cc"
   - name: Imteraction:Minor-Release
