@@ -68,7 +68,7 @@ labels:
     color: "#c6f489"
   - name: Type:Epic
     description: Epic is the parent of user stories
-    color: "#c6f489"
+    color: "#6819E7"
   - name: Type:Bug
     color: "#fc2929"
   - name: Type:Design
@@ -78,9 +78,9 @@ labels:
   - name: Type:Technical-Debt
     color: "#ffff00"
   - name: Type:Orga
-    color: "#ffff00"
+    color: "#1D76DB"
   - name: Type:Theme
-    color: "#ededed"
+    color: "#C2E0C6"
   - name: Type:Regression
     color: "#e11d21"
   - name: Type:Orga
@@ -89,8 +89,8 @@ labels:
     description: Solutions for internal knowledge
     color: "#c5def5"
   - name: Type:CI
-    description: Solutions for internal knowledge
-    color: "#c5def5"
+    description: Related to our Continouus Integration Solution
+    color: "#FEF2C0"
   - name: Topic:Transition
     color: "#ccf4ff"
   - name: Topic:Translation
