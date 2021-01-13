@@ -13,19 +13,19 @@ labels:
     color: "#02d7e1"
   - name: "Deadline-\U0001F4C6"
     color: "#fbca04"
-  - name: Estimation:XS
+  - name: Estimation:XS(1)
     color: "#c4fc9c"
-  - name: Estimation:S
+  - name: Estimation:S(2)
     color: "#c4fc9c"
-  - name: Estimation:M
+  - name: Estimation:M(3)
     color: "#c4fc9c"
-  - name: Estimation:L
+  - name: Estimation:L(5)
     color: "#c4fc9c"
-  - name: Estimation:XL
+  - name: Estimation:XL(8)
     color: "#c4fc9c"
-  - name: Estimation:XXL
+  - name: Estimation:XXL(13)
     color: "#c4fc9c"
-  - name: Estimation:XXXL
+  - name: Estimation:XXXL(21)
     color: "#c4fc9c"
   - name: p1-urgent
     description: Consider a hotfix release with only that fix
