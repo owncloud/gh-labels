@@ -165,7 +165,7 @@ labels:
     color: "#ffffff"
   - name: Status:Tested
     color: "#62db68"
-  - name: Status:Staled
+  - name: Status:Stale
     color: "#101000"
   - name: Interaction:Needs-help
     description: Asking some hints to engineering when the issue can't be reproduced
