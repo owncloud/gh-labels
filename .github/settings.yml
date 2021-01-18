@@ -184,7 +184,7 @@ labels:
   - name: Status:On-Hold
     color: "#aa3109"
   - name: Status:Needs-Review
-    oldname: 3 - To Review
+    oldname: "3 - To Review"
     description: Needs review from a maintainer
     color: "#fbca04"
   - name: Status:Needs-Revision
@@ -193,17 +193,17 @@ labels:
   - name: Status:Needs-Info
     color: "#fbca04"
   - name: Status:Needs-release
-    oldname: 4 - To release
+    oldname: "4 - To release"
     color: "#fbca04"
   - name: Status:In-Progress
-    oldname: 2 - Developing
+    oldname: "2 - Developing"
     color: "#C5DEF5"
   - name: Status:Completed
     color: "#006B75"
   - name: Status:Blocked
     color: "#990000"
   - name: Status:Pending
-    oldname: 1 - To develop
+    oldname: "1 - To develop"
     color: "#eca3a2"
   - name: Status:Proposal
     color: "#D4C5F9"
