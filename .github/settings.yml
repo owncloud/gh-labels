@@ -79,20 +79,20 @@ labels:
   - name: QA:p4
     oldname: QA-p4
     color: "#fef2c0"
-  - name: Severity:sev1-critical
-    oldname: sev1-critical
+  - name: "Severity:sev1-critical"
+    oldname: "sev1-critical"
     description: mission critical, total disruption of work, no workaround
     color: "#fc2929"
-  - name: Severity;sev2-high
-    oldname: sev2-high
+  - name: "Severity:sev2-high"
+    oldname: "sev2-high"
     description: operations severely restricted, workaround available
     color: "#fc2929"
-  - name: Severity:sev3-medium
-    oldname: sev3-medium
+  - name: "Severity:sev3-medium"
+    oldname: "sev3-medium"
     description: minor loss of usage, workaround available
     color: "#fc2929"
-  - name: Severity:sev4-low
-    oldname: sev4-low
+  - name: "Severity:sev4-low"
+    oldname: "sev4-low"
     description: no loss of service, req. for docs info or enhancement
     color: "#fc2929"
   - name: Type:Story
