@@ -34,24 +34,24 @@ labels:
   - name: Estimation:XXXL(21)
     oldname: Estimation:XXXL
     color: "#c4fc9c"
-  - name: "Priority:p1-urgent"
-    oldname: "p1-urgent"
+  - name: Priority:p1-urgent
+    oldname: p1-urgent
     description: Consider a hotfix release with only that fix
     color: "#fc2929"
-  - name: "Priority:p2-high"
-    oldname: "p2-high"
+  - name: Priority:p2-high
+    oldname: p2-high
     description: Escalation, on top of current planning, release blocker
     color: "#fc2929"
-  - name: "Priority:p3-medium"
-    oldname: "p3-medium"
+  - name: Priority:p3-medium
+    oldname: p3-medium
     description: Normal priority
     color: "#fc2929"
-  - name: "Priority:p4-low"
-    oldname: "p4-low"
+  - name: Priority:p4-low
+    oldname: p4-low
     description: Low priority
     color: "#fc2929"
   - name: QA:ready
-    oldname: "QA-ready"
+    oldname: QA-ready
     color: "#0052cc"
   - name: QA:blocker
     oldname: QA-blocker
@@ -79,20 +79,20 @@ labels:
   - name: QA:p4
     oldname: QA-p4
     color: "#fef2c0"
-  - name: "Severity:sev1-critical"
-    oldname: "sev1-critical"
+  - name: Severity:sev1-critical
+    oldname: sev1-critical
     description: mission critical, total disruption of work, no workaround
     color: "#fc2929"
-  - name: "Severity:sev2-high"
-    oldname: "sev2-high"
+  - name: Severity:sev2-high
+    oldname: sev2-high
     description: operations severely restricted, workaround available
     color: "#fc2929"
-  - name: "Severity:sev3-medium"
-    oldname: "sev3-medium"
+  - name: Severity:sev3-medium
+    oldname: sev3-medium
     description: minor loss of usage, workaround available
     color: "#fc2929"
-  - name: "Severity:sev4-low"
-    oldname: "sev4-low"
+  - name: Severity:sev4-low
+    oldname: sev4-low
     description: no loss of service, req. for docs info or enhancement
     color: "#fc2929"
   - name: Type:Story
@@ -157,7 +157,7 @@ labels:
     oldname: good first issue
     color: "#7057ff"
   - name: Topic:API
-    color: "#a2eeef"
+    color: "#ccf4ff"
   - name: Category:Enhancement
     oldname: enhancement
     description: Add new functionality
@@ -184,7 +184,7 @@ labels:
   - name: Status:On-Hold
     color: "#aa3109"
   - name: Status:Needs-Review
-    oldname: "3 - To Review"
+    oldname: 3 - To Review
     description: Needs review from a maintainer
     color: "#fbca04"
   - name: Status:Needs-Revision
@@ -193,17 +193,17 @@ labels:
   - name: Status:Needs-Info
     color: "#fbca04"
   - name: Status:Needs-release
-    oldname: "4 - To release"
+    oldname: 4 - To release
     color: "#fbca04"
   - name: Status:In-Progress
-    oldname: "2 - Developing"
+    oldname: 2 - Developing
     color: "#C5DEF5"
   - name: Status:Completed
     color: "#006B75"
   - name: Status:Blocked
     color: "#990000"
   - name: Status:Pending
-    oldname: "1 - To develop"
+    oldname: 1 - To develop
     color: "#eca3a2"
   - name: Status:Proposal
     color: "#D4C5F9"
