@@ -14,53 +14,85 @@ labels:
   - name: "Deadline-\U0001F4C6"
     color: "#fbca04"
   - name: Estimation:XS(1)
+    oldname: Estimation:XS
     color: "#c4fc9c"
   - name: Estimation:S(2)
+    oldname: Estimation:S
     color: "#c4fc9c"
   - name: Estimation:M(3)
+    oldname: Estimation:M
     color: "#c4fc9c"
   - name: Estimation:L(5)
+    oldname: Estimation:L
     color: "#c4fc9c"
   - name: Estimation:XL(8)
+    oldname: Estimation:XL
     color: "#c4fc9c"
   - name: Estimation:XXL(13)
+    oldname: Estimation:XXL
     color: "#c4fc9c"
   - name: Estimation:XXXL(21)
+    oldname: Estimation:XXXL
     color: "#c4fc9c"
-  - name: p1-urgent
+  - name: Priority:p1-urgent
+    oldname: p1-urgent
     description: Consider a hotfix release with only that fix
     color: "#fc2929"
-  - name: p2-high
+  - name: Priority:p2-high
+    oldname: p2-high
     description: Escalation, on top of current planning, release blocker
     color: "#fc2929"
-  - name: p3-medium
+  - name: Priority:p3-medium
+    oldname: p3-medium
     description: Normal priority
     color: "#fc2929"
-  - name: p4-low
+  - name: Priority:p4-low
+    oldname: p4-low
     description: Low priority
     color: "#fc2929"
-  - name: QA-ready
-    color: "#5319e7"
-  - name: QA-team
+  - name: QA:ready
+    oldname: QA-ready
+    color: "#0052cc"
+  - name: QA:blocker
+    oldname: QA-blocker
+    color: "#0052cc"
+  - name: QA:known
+    oldname: QA-known
+    color: "#0052cc"
+  - name: QA:testing
+    oldname: QA-testing
+    color: "#0052cc"
+  - name: QA
+    color: "#0052cc"
+  - name: QA:team
+    oldname: QA-team
     color: "#4cc948"
-  - name: QA-p1
-    color: "#4cc948"
-  - name: QA-p2
-    color: "#4cc948"
-  - name: QA-p3
-    color: "#4cc948"
-  - name: QA-p4
-    color: "#4cc948"
-  - name: sev1-critical
+  - name: QA:p1
+    oldname: QA-p1
+    color: "#fef2c0"
+  - name: QA:p2
+    oldname: QA-p2
+    color: "#fef2c0"
+  - name: QA:p3
+    oldname: QA-p3
+    color: "#fef2c0"
+  - name: QA:p4
+    oldname: QA-p4
+    color: "#fef2c0"
+  - name: Severity:sev1-critical
+    oldname: sev1-critical
     description: mission critical, total disruption of work, no workaround
     color: "#fc2929"
-  - name: sev2-high
+  - name: Severity;sev2-high
+    oldname: sev2-high
     description: operations severely restricted, workaround available
     color: "#fc2929"
-  - name: sev3-medium
+  - name: Severity:sev3-medium
+    oldname: sev3-medium
     description: minor loss of usage, workaround available
     color: "#fc2929"
-  - name: sev4-low
+  - name: Severity:sev4-low
+    oldname: sev4-low
     description: no loss of service, req. for docs info or enhancement
     color: "#fc2929"
   - name: Type:Story
@@ -79,6 +111,7 @@ labels:
   - name: Type:Discussion
     color: "#fbca04"
   - name: Type:Technical-Debt
+    oldname: technical debt
     color: "#ffff00"
   - name: Type:Orga
     color: "#1D76DB"
@@ -90,6 +123,7 @@ labels:
     description: Solutions for internal knowledge
     color: "#c5def5"
   - name: Type:CI
+    oldname: Drone
     description: Related to our Continouus Integration Solution
     color: "#FEF2C0"
   - name: Topic:Transition
@@ -97,10 +131,14 @@ labels:
   - name: Topic:Translation
     color: "#ccf4ff"
   - name: Topic:UX-Design
+    oldname: design
     color: "#ccf4ff"
   - name: Topic:Packaging
     color: "#ccf4ff"
   - name: Topic:Performance
+    color: "#ccf4ff"
+  - name: Topic:Hardening
+    oldname: Hardening
     color: "#ccf4ff"
   - name: Topic:Security
     color: "#ccf4ff"
@@ -108,14 +146,20 @@ labels:
     description: Issues related to our official Docker containers
     color: "#ccf4ff"
   - name: Topic:Documentation
+    oldname: documentation
     color: "#ccf4ff"
   - name: Topic:Deprecation
     color: "#ccf4ff"
-  - name: Topic:Good-First-Issue
+  - name: Topic:Dependencies
+    oldname: dependencies
+    color: "#ccf4ff"
+  - name: Topic:good-first-issue
+    oldname: good first issue
     color: "#7057ff"
   - name: Topic:API
     color: "#a2eeef"
-  - name: Category:Feature
+  - name: Category:Enhancement
+    oldname: enhancement
     description: Add new functionality
     color: "#c5def5"
   - name: Category:Change
@@ -140,6 +184,7 @@ labels:
   - name: Status:On-Hold
     color: "#aa3109"
   - name: Status:Needs-Review
+    oldname: 3 - To Review
     description: Needs review from a maintainer
     color: "#fbca04"
   - name: Status:Needs-Revision
@@ -148,26 +193,38 @@ labels:
   - name: Status:Needs-Info
     color: "#fbca04"
   - name: Status:Needs-release
+    oldname: 4 - To release
     color: "#fbca04"
   - name: Status:In-Progress
+    oldname: 2 - Developing
     color: "#C5DEF5"
   - name: Status:Completed
     color: "#006B75"
   - name: Status:Blocked
     color: "#990000"
   - name: Status:Pending
+    oldname: 1 - To develop
     color: "#eca3a2"
   - name: Status:Proposal
     color: "#D4C5F9"
   - name: Status:Accepted
     color: "#d6f282"
   - name: Status:Wontfix
+    oldname: wontfix
     color: "#ffffff"
   - name: Status:Tested
     color: "#62db68"
   - name: Status:Stale
+    oldname: status/STALE
     color: "#101000"
+  - name: Status:Duplicate
+    oldname: duplicate
+    color: "#cfd3d7"
+  - name: Status:Invalid
+    oldname: invalid
+    color: "#e4e669"
   - name: Interaction:Needs-help
+    oldname: help wanted
     description: Asking some hints to engineering when the issue can't be reproduced
     color: "#fbca04"
   - name: Interaction:Needs-Concept
@@ -176,10 +233,15 @@ labels:
   - name: Interaction:Needs-tests
     color: "#fbca04"
   - name: Interaction:Question
+    oldname: question
     color: "#fbca04"
   - name: Interaction:Discussion
     color: "#fbca04"
   - name: Interaction:Blue-Ticket
+    oldname: blue-ticket
     color: "#0033cc"
   - name: Interaction:Minor-Release
+    color: "#a5172a"
+  - name: Interaction:Bounty
+    oldname: bounty
     color: "#a5172a"
