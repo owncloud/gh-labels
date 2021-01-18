@@ -34,24 +34,24 @@ labels:
   - name: Estimation:XXXL(21)
     oldname: Estimation:XXXL
     color: "#c4fc9c"
-  - name: Priority:p1-urgent
+  - name: "Priority:p1-urgent"
     oldname: "p1-urgent"
     description: Consider a hotfix release with only that fix
     color: "#fc2929"
-  - name: Priority:p2-high
+  - name: "Priority:p2-high"
     oldname: "p2-high"
     description: Escalation, on top of current planning, release blocker
     color: "#fc2929"
-  - name: Priority:p3-medium
-    oldname: p3-medium
+  - name: "Priority:p3-medium"
+    oldname: "p3-medium"
     description: Normal priority
     color: "#fc2929"
-  - name: Priority:p4-low
-    oldname: p4-low
+  - name: "Priority:p4-low"
+    oldname: "p4-low"
     description: Low priority
     color: "#fc2929"
   - name: QA:ready
-    oldname: QA-ready
+    oldname: "QA-ready"
     color: "#0052cc"
   - name: QA:blocker
     oldname: QA-blocker
