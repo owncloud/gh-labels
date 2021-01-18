@@ -245,3 +245,18 @@ labels:
   - name: Interaction:Bounty
     oldname: bounty
     color: "#129e5e"
+  - name: Browser:Chrome
+    oldname: browser:chrome
+    color: "#207de5"
+  - name: Browser:Firefox
+    oldname: browser:firefox
+    color: "#207de5"
+  - name: Browser:Edge
+    oldname: browser:edge
+    color: "#207de5"
+  - name: Browser:Safari
+    oldname: browser:safari
+    color: "#207de5"
+  - name: Browser:IE
+    oldname: browser:ie
+    color: "#207de5"
