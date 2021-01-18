@@ -155,7 +155,7 @@ labels:
     color: "#ccf4ff"
   - name: Topic:good-first-issue
     oldname: good first issue
-    color: "#7057ff"
+    color: "#ccf4ff"
   - name: Topic:API
     color: "#ccf4ff"
   - name: Category:Enhancement
