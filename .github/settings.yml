@@ -35,11 +35,11 @@ labels:
     oldname: Estimation:XXXL
     color: "#c4fc9c"
   - name: Priority:p1-urgent
-    oldname: p1-urgent
+    oldname: "p1-urgent"
     description: Consider a hotfix release with only that fix
     color: "#fc2929"
   - name: Priority:p2-high
-    oldname: p2-high
+    oldname: "p2-high"
     description: Escalation, on top of current planning, release blocker
     color: "#fc2929"
   - name: Priority:p3-medium
