@@ -260,3 +260,5 @@ labels:
   - name: Browser:IE
     oldname: browser:ie
     color: "#207de5"
+  - name: Early-Adopter:CERN
+    color: "#1D76DB"
