@@ -262,3 +262,25 @@ labels:
     color: "#207de5"
   - name: Early-Adopter:CERN
     color: "#1D76DB"
+  - name: Early-Adopter:Aarnet
+    color: "#1D76DB"
+  - name: Early-Adopter:Adfinis
+    color: "#1D76DB"
+  - name: Early-Adopter:Auctores
+    color: "#1D76DB"
+  - name: Early-Adopter:bitkasten
+    color: "#1D76DB"
+  - name: Early-Adopter:Computacenter
+    color: "#1D76DB"
+  - name: Early-Adopter:CYON
+    color: "#1D76DB"
+  - name: Early-Adopter:GWDG
+    color: "#1D76DB"
+  - name: Early-Adopter:Sciebo
+    color: "#1D76DB"
+  - name: Early-Adopter:Siedl
+    color: "#1D76DB"
+  - name: Early-Adopter:SURF
+    color: "#1D76DB"
+  - name: Early-Adopter:TDGroup
+    color: "#1D76DB"
