@@ -245,6 +245,8 @@ labels:
   - name: Interaction:Bounty
     oldname: bounty
     color: "#129e5e"
+  - name: Interaction:Squad
+    color: "#c4fc9c"
   - name: Browser:Chrome
     oldname: browser:chrome
     color: "#207de5"
