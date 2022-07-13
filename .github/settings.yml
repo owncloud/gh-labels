@@ -242,6 +242,8 @@ labels:
     color: "#0033cc"
   - name: Interaction:Minor-Release
     color: "#a5172a"
+  - name: Interaction:Release-blocker
+    color: "#d93f0b"
   - name: Interaction:Bounty
     oldname: bounty
     color: "#129e5e"
